@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/argentina-fc-pub/static/css/main.dfdf6755.css",
-    "main.js": "/argentina-fc-pub/static/js/main.c8419afe.js",
+    "main.js": "/argentina-fc-pub/static/js/main.90926650.js",
     "static/js/787.ebb3e73a.chunk.js": "/argentina-fc-pub/static/js/787.ebb3e73a.chunk.js",
     "index.html": "/argentina-fc-pub/index.html",
     "main.dfdf6755.css.map": "/argentina-fc-pub/static/css/main.dfdf6755.css.map",
-    "main.c8419afe.js.map": "/argentina-fc-pub/static/js/main.c8419afe.js.map",
+    "main.90926650.js.map": "/argentina-fc-pub/static/js/main.90926650.js.map",
     "787.ebb3e73a.chunk.js.map": "/argentina-fc-pub/static/js/787.ebb3e73a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dfdf6755.css",
-    "static/js/main.c8419afe.js"
+    "static/js/main.90926650.js"
   ]
 }
