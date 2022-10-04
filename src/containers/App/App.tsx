@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route
 } from 'react-router-dom';
@@ -14,84 +14,7 @@ import PeopleList from '../PeopleList';
 import AddFood from '../AddFood';
 
 function App() {
-  const [tab, setTab] = useState<any[]>([{
-    teamMember: 'Contra',
-    items: [{
-      name: 'IPA',
-      price: 6.4,
-      paid: false
-    }, {
-      name: 'IPA',
-      price: 6.4,
-      paid: false
-    }, {
-      name: 'IPA',
-      price: 6.4,
-      paid: false
-    }, {
-      name: 'Burger',
-      price: 13.5,
-      paid: false
-    }]
-  }, {
-    teamMember: 'Faca',
-    items: [{
-      name: 'IPA',
-      price: 6.4,
-      paid: false
-    }, {
-      name: 'IPA',
-      price: 6.4,
-      paid: false
-    }, {
-      name: 'IPA',
-      price: 6.4,
-      paid: false
-    }, {
-      name: 'IPA',
-      price: 6.4,
-      paid: false
-    }, {
-      name: 'Margarita',
-      price: 9.5,
-      paid: true
-    }]
-  }, {
-    teamMember: 'Facu',
-    items: [{
-      name: 'IPA',
-      price: 6.4,
-      paid: false
-    }, {
-      name: 'IPA',
-      price: 6.4,
-      paid: false
-    }, {
-      name: 'IPA',
-      price: 6.4,
-      paid: false
-    }]
-  }, {
-    teamMember: 'Peru',
-    items: [{
-      name: 'Lager',
-      price: 5.4,
-      paid: true
-    }, {
-      name: 'Lager',
-      price: 5.4,
-      paid: true
-    }, {
-      name: 'Lager',
-      price: 5.4,
-      paid: true
-    }, {
-      name: 'Burger',
-      price: 13.5,
-      quantity: 1,
-      paid: true
-    }]
-  }]);
+  const [tab, setTab] = useState<any[]>([]);
   const [prices] = useState<any[]>(Menu);
 
   const updateTab = (newTab: any[]) => {
