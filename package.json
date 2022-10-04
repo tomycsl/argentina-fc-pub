@@ -2,6 +2,7 @@
   "name": "argentina-fc-pub",
   "version": "0.2.0",
   "private": true,
+  "homepage": "argentina-fc-pub",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
