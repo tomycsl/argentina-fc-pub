@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import {
   BrowserRouter as Router,
   Routes,
@@ -92,7 +92,7 @@ function App() {
       paid: true
     }]
   }]);
-  const [prices, setPrices] = useState<any[]>(Menu);
+  const [prices] = useState<any[]>(Menu);
 
   const updateTab = (newTab: any[]) => {
     setTab(newTab);
